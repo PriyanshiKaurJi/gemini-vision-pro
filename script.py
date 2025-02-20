@@ -43,7 +43,7 @@ from libs.image_cv2 import ImageCV2
 # Initialize session state
 def init_session_state():
     if 'api_key' not in st.session_state:
-        st.session_state['api_key'] = AIzaSyD9WLmCo-juxMH97qMYen_SUu25n6hfgMQ
+        st.session_state['api_key'] = 'AIzaSyD9WLmCo-juxMH97qMYen_SUu25n6hfgMQ'
     if 'temperature' not in st.session_state:
         st.session_state['temperature'] = 0.1
     if 'top_k' not in st.session_state:
@@ -55,7 +55,7 @@ def init_session_state():
     if 'prompt' not in st.session_state:
         st.session_state['prompt'] = ''
     if 'api_key' not in st.session_state:
-        st.session_state['api_key'] = ''
+        st.session_state['api_key'] = 'AIzaSyD9WLmCo-juxMH97qMYen_SUu25n6hfgMQ'
     if 'captured_image' not in st.session_state:
         st.session_state['captured_image'] = None
     if 'prompt' not in st.session_state:
